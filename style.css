@@ -47,12 +47,17 @@ header p{
 nav{
     background-color: var(--cor2);
     padding: 10px;
+    margin: auto;
 }
 nav a {
     color: white;
-    padding: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-weight: normal;
     font-family: var(--fonte-destaque);
+    margin: auto;
 }
 nav a:hover{
     background-color: rgba(0, 0, 0, 0.452);
@@ -89,11 +94,16 @@ h3{
     border-radius: 20px;
     background-color: #dfa8e0;
     width: 100px;
+    padding:8px;
 }
 h3:hover{
     background-color: #dfa8e05b;
     width: 100px;
     transition-duration: ;1s
+    margin: auto;
+}
+div{
+    padding: 20px;
 }
 div > p{
     display: none;
@@ -104,7 +114,9 @@ div:active > p{
     font-size: 30px;
     color:pink;
 }
-
+#segredo{
+    padding: 10px;
+}
 
 
 
